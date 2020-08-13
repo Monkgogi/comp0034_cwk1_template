@@ -1,9 +1,12 @@
-# COMP0034 Course template app
+# COMP0034 Skeleton Flask and Dash app for the coursework
 
 ## Code structure
-`data` use this directory to save your data files or database
-`static/charts` use directory to save your generated charts (e.g. .png, .jpg, .html (for express charts))
-`templates` use this directory for any pages that your web app displays, e.g. those that are accessed via the navigation bar
+`data` save your data files or database to this directory
+`static/charts` save your generated charts (e.g. .png, .jpg, .html (for express charts)) to this directory
+`templates` pages that your web app displays, e.g. those that are accessed via the navigation bar. Includes pages for home (index), matplotlib charts, plotly express charts, and textual discussion of the Dash charts.
+`flask_app.py` configures and creates the Flask app and provides the routes
+`dash_app.py` configures and creates the Dash app, you will need to edit this with your own Dash code
+`requirements.txt` contains the libraries you will need to install for the app to run. You can use `pip install -r requirements.txt`.
 
 ## Using and modifying this Flask and Dash app code
 You can use this Flask app template to present your chart portfolio for coursework 1.
