@@ -21,7 +21,7 @@ However, any experience in using Flask in coursework 1 will likely benefit you i
 ## Editing the `templates` html files
 Use the .html files in the `templates` folder to add your chart image files and textual explanations.
 
-Note that if you change a filename please use a refactoring method in the IDE e.g. in PyCharm use Refactor | Rename. If you change the name of the html file manually then you will also need to make a corresponding change to the navigation bar in `layout.html` and also to the route definitions in `flask_app.py`.
+Note that if you change a filename please use a refactoring method in the IDE e.g. in PyCharm use Refactor | Rename. If you do not do this and you change the name of the html file manually then you will also need to make a corresponding change to the navigation bar in `layout.html` and also to the route definitions in `flask_app.py`.
 
 `layout.html` is the base template used by the other pages. You would only need to edit this if you wish to change the CSS style sheet that is used or if you want to edit the navigation bar (e.g. to rename or to add/remove links).
 
